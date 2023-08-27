@@ -31,7 +31,7 @@ print(f"Accessing Spreadsheet...")
 
 #sort out credentials
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
-SPREADSHEET_ID = '1ZouKj9lKDJWmz6_YWdCPsmd_hZ5Em3jGwITDD5oOyQo' #replace this with your spreadsheer ID (in http link after /d/)
+SPREADSHEET_ID = '' #replace this with your spreadsheer ID (in http link after /d/)
 creds = None
 if os.path.exists('token.json'):
     creds = Credentials.from_authorized_user_file('token.json', SCOPES)
